@@ -1,0 +1,76 @@
+@font-face {
+    font-family: zumme;
+    src: url('../../public/zummeone.ttf');
+  }
+
+
+
+
+
+.hero-main{
+    position: relative;
+    background-image: url('../../public//bg.png');
+    width: 100vw;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-size: cover;
+ 
+   
+}
+
+.group-hero{
+       
+  width: 80vw;
+  margin-top: 26rem;
+  z-index: 5;
+}
+
+.hero-back-text {
+    position: absolute;
+    top: -95vh;
+    font-size: 28rem;
+    color: rgb(244, 1, 1);
+    font-family: zumme;
+    font-weight: 900;
+  
+    // Adding 3D effects
+    text-shadow: 
+      1px 1px 0 #ff0000,   /* First shadow layer */
+      2px 2px 0 #1a1919,   /* Second shadow layer */
+      4px 4px 5px rgba(0, 0, 0, 0.5);  /* Third shadow, for depth */
+    
+      background: linear-gradient(45deg, #050505);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  
+  }
+
+.hero-front-text{
+    position: absolute;
+    bottom  : -70vh;
+    font-size: 15rem;
+    color: rgb(255, 3, 3);
+    font-family: zumme;
+    font-weight: 900;
+    z-index: 10;
+    text-shadow: 
+    1px 1px 0 #ffffff,   /* First shadow layer */
+    2px 2px 0 #1a1919,   /* Second shadow layer */
+    4px 4px 5px rgba(0, 0, 0, 0.5);  /* Third shadow, for depth */
+  
+    background: linear-gradient(45deg, #ffffff, #3333ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+ 
+}
+.bg-hero{
+  position: absolute;
+  width: 100vw;
+  height: inherit;
+}
