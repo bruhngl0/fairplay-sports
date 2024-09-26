@@ -10,8 +10,8 @@ const Hero = () => {
 
   // Set max scroll effect limits
   const maxScrollImage = -50; // Maximum pixel translation for the image
-  const maxScrollTextBack = 650; // Maximum pixel translation for the background text
-  const maxScrollTextFront = -500; // Maximum pixel translation for the front text
+  const maxScrollTextBack = 450; // Maximum pixel translation for the background text
+  const maxScrollTextFront = -380; // Maximum pixel translation for the front text
   const maxScrollBg = -10; // Maximum pixel translation for the background image
  
   const scrollSpeedFactor = 1000; 

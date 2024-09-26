@@ -1,0 +1,72 @@
+
+.main-layout-ani{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    font-size: 50px;
+    font-weight: 700;
+    justify-content: center;
+    padding-left: 10px;
+  color: rgb(8, 8, 8)
+    
+}
+
+
+.layout-two-ani {
+    display: flex;
+    flex-direction: column;
+   
+    overflow: hidden;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+   line-height: 10px;
+ 
+    
+   
+  }
+  
+  .image-container-two-ani {
+    display: flex;
+    flex-direction: column;
+    transition: transform 1s ease-in-out; /* Smooth transition for the sliding effect */
+    font-size: 50px;
+    height: 80px;
+   
+
+  }
+  
+  .image-container-two-ani img {
+    width: 330px; /* Each image takes up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    font-size: 1rem;
+    line-height: 10px;
+  }
+  
+  /* CSS classes to handle the right-to-left sliding effect */
+  .ani-image-0 {
+    transform: translateY(-28px); /* First image visible */
+  }
+  
+  .ani-image-1 {
+    transform: translateY(-138px); /* Second image slides in from the right */
+  }
+  
+  .ani-image-2 {
+    transform: translateY(-248px); /* Third image slides in from the right */
+  }
+
+  .ani-image-3 {
+    transform: translateY(-355px); /* Third image slides in from the right */
+  }
+
+  .ani-image-4{
+    transform: translateY(-467px); /* Third image slides in from the right */
+  }
+
+  .ani-image-5{
+    transform: translateY(-575px); /* Third image slides in from the right */
+  }
+
+  .ani-image-6{
+    transform: translateY(-28px); /* Third image slides in from the right */
+  }

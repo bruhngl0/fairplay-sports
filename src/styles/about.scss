@@ -1,8 +1,40 @@
-.about-main {
-   background-color: rgb(23, 5, 104);
-   height: 100vh;
-  }
-  
+.about-container {
+  min-height: 130vh;
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+   
+ background-color: rgb(20, 14, 113); /* Black with 50% opacity */
+ 
+
   .about-inner {
-    background-color: rgb(34, 9, 159);
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5rem;
+    margin-top: 10rem;
+    justify-content: flex-start;
+  
+   
+    
+    
+   
+    
+    >img{
+      
+    }
   }
+
+  .about-text {
+    font-size: 2.25rem; // Equivalent to text-4xl
+    font-weight: bold;
+    color: #b9bfc9; // Blue color to match the background
+    margin-left: 4rem;
+  }
+}
+
+.layout-loa{
+  margin-left: 3rem;
+}
